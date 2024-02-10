@@ -20,6 +20,7 @@ apply plugin: 'androidx.benchmark'
 
 android {
     compileSdkVersion build_versions.compile_sdk
+    namespace "com.example.benchmark.test"
 
     defaultConfig {
         vectorDrawables {

@@ -19,6 +19,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion build_versions.compile_sdk
+    namespace "com.example.background.library"
 
     defaultConfig {
         vectorDrawables {
