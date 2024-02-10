@@ -21,7 +21,7 @@ plugins {
 
 android {
     compileSdkVersion build_versions.compile_sdk
-    buildToolsVersion "30.0.3"
+    namespace "com.example.background.multiprocess"
 
     defaultConfig {
         applicationId "com.example.background.multiprocess"
